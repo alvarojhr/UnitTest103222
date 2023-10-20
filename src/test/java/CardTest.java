@@ -12,7 +12,7 @@ public class CardTest {
     @Test
     void TestToString (){
         Card card = new Card(Card.Suit.CLUBS, Card.Rank.KING);
-        assertEquals(Card.Rank.KING+ " "+ Card.Suit.CLUBS,card.toString());
+        assertEquals(Card.Rank.KING+" "+ Card.Suit.CLUBS,card.toString());
     }
 }
 
